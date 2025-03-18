@@ -1,0 +1,143 @@
+  <!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+
+  <body>
+    <!-- Envuelve todo el contenido de la página en un nuevo div con la clase page Recuerda agregar la etiqueta de cierre -->
+    <div class="page">
+
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          >
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff">Los preferidos de nuestro staff</a>
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">Bienvenidos a la biblioteca Triple Peaks</h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven y amplía
+              tus conocimientos sobre desarrollo, o simplemente ven a trabajar o
+              estudiar con nosotros. ¡Este es un lugar genial para estudiantes!
+            </p>
+          </div>
+        <!------------------------------------------------------------------------------->
+        <!--       No descomentar hasta la sección 2.3 de la etapa 1 del brief         -->
+        <!------------------------------------------------------------------------------->
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          >
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+
+      <main class="content">
+        <section class="staff" id="staff">
+        <!-------------------------------------------------------------------->
+        <!--        No descomentar hasta la etapa final del proyecto.       -->
+        <!-------------------------------------------------------------------->
+        <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+        <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+        <ul class="staff__cards">
+          <li class="card">
+            <div class="card__content">
+              <h3 class="card__title">Don Quijote de la Mancha</h3>
+              <p class="card__text">
+                Viaja al corazón de la locura y la aventura con Don Quijote,
+                un hidalgo que, cegado por su obsesión con los libros de caballería,
+                decide convertirse en un caballero andante. Acompañado de su leal
+                escudero Sancho Panza, enfrenta molinos de viento que creen gigantes,
+                rescata damiselas imaginarias y desafía la realidad con nobleza y locura.
+                Una sátira brillante que reflexiona sobre la delgada línea entre la fantasía y la razón.
+              </p>
+              <p class="card__footer">
+                Miguel de Cervantes
+              </p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__content">
+              <h3 class="card__title">
+                Crimen y castigo
+              </h3>
+              <p class="card__text">
+                En las calles grises de San Petersburgo, Raskólnikov, un joven estudiante,
+                comete un asesinato convencido de que su inteligencia le permite estar por
+                encima de la moral. Pero la culpa se convierte en su peor enemigo, arrastrándolo
+                a un tormento psicológico que lo lleva al borde de la locura. Una obra maestra
+                de la introspección humana que explora la culpa, el castigo y la posibilidad de redención.
+              </p>
+              <p class="card__footer">
+                Fiódor Dostoievski
+              </p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__content">
+              <h3 class="card__title">
+                Cien años de soledad
+              </h3>
+              <p class="card__text">
+                Macondo, un pueblo fundado por la familia Buendía, se convierte en el escenario
+                de un siglo de amores trágicos, guerras, soledad y realismo mágico.
+                A través de generaciones marcadas por la repetición del destino,
+                García Márquez teje un relato cautivador donde lo imposible se vuelve cotidiano.
+                Un clásico que invita a perderse en un universo de sueños, profecías y memorias imborrables.
+              </p>
+              <p class="card__footer">Gabriel García Márquez</p>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="card__content">
+              <h3 class="card__title">
+                1984
+              </h3>
+              <p class="card__text">
+                En una sociedad donde el Gran Hermano todo lo ve y la historia es manipulada
+                a voluntad del Partido, Winston Smith lucha contra un sistema que castiga el pensamiento libre.
+                En su búsqueda de la verdad y la libertad, descubrirá que la opresión no solo es física, sino también mental.
+                Una novela inquietante que sigue siendo una advertencia sobre el poder del control y la manipulación.
+              </p>
+              <p class="card__footer">George Orwell</p>
+            </div>
+          </li>
+        </ul>
+
+
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
