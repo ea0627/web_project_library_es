@@ -47,7 +47,6 @@
 
 .header__content {
   display: flex;
-  /* max-width: 635px; */
   justify-content: space-between;
   align-items: center;
 }
