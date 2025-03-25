@@ -115,7 +115,7 @@
   color: #ffffff;
 }
 
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
+
 
 .staff__cards{
   max-width: 760px;
@@ -136,7 +136,6 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  /* margin-top: auto; */
   margin: auto;
   overflow: auto;
 }
