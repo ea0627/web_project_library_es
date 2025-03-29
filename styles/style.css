@@ -384,10 +384,6 @@
   height: 80px;
 }
 
-.footer__column-link {
-
-}
-
 .footer__column-heading {
   font-size: 16px;
   font-weight: bold;
@@ -413,6 +409,9 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
@@ -421,5 +420,5 @@
 }
 
 .footer__copyright {
-
+  margin-top: 100px;
 }
